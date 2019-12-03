@@ -23,5 +23,7 @@ value from a(): 1000
 value from b(): 1000
 ```
 
-I've checked this code with GCC-7.4.0, GCC-9.2.1 and clang-9.0.1.
+I've checked this code with GCC-5.5.0, GCC-7.4.0, GCC-9.2.1 and clang-9.0.1.
+
+Note. clang-3.8.0 reports those errors even with `-O2`.
 
